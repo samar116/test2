@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="images/logo-ana.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+	<title>ELS Student</title>
+
+	<meta content="width=device-width" initial-scale="1.0" maximum-scale="1.0" user-scalable="0" name="viewport" />
+    <meta name="viewport" content="width=device-width" />
+
+    <link href="css/vendor/all.css" rel="stylesheet">
+
+    <link href="css/app/app.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS     -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="assets/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Light Bootstrap Table core CSS    -->
+    <link href="assets/css/light-bootstrap-dashboard.css" rel="stylesheet"/>
+
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="assets/css/demo.css" rel="stylesheet" />
+
+
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,700,300" rel="stylesheet" type="text/css">
+    <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+
+        <!-- Vendor CSS BUNDLE-->
+
+        <link href="..//Light Bootstrap Dashboard Tutorial/css/app/app.css" rel="stylesheet">
+
+
+        <link href="../Light Bootstrap Dashboard Tutorial/css/vendor/all.css" rel="stylesheet">
+
+       
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="sidebar" data-color="purple" data-image="assets/img/sidebar-5.jpg">
+
+    <!--
+
+        Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
+        Tip 2: you can also add an image using data-image tag
+
+    -->
+          <!-- START SIDE -->
+
+    	<div class="sidebar-wrapper">
+            <div class="logo">
+                <a  href="dashboard.html"> <img src="assets/img/logo-ana.png" alt="logo"></a>
+                
+            </div>
+
+            <ul class="nav">
+                <li class="active">
+                    <a href="dashboard.html">
+                        <i class="pe-7s-graph"></i>
+                        <p>Dashboard</p>
+                    </a>
+                </li>
+                <li class="active">
+					<a href="posts.html">
+						<i class="pe-7s-note2"></i>
+						<p>Posts</p>
+					</a>
+				</li>
+                <li>
+                    <a href="user.html">
+                        <i class="pe-7s-user"></i>
+                        <p>User Profile</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="table.html">
+                        <i class="pe-7s-note2"></i>
+                        <p>TIME TABLE</p>
+                    </a>
+                </li>
+                <li class="active">
+					<a href="appearance.html">
+						<i class="pe-7s-study"></i>
+						<p>MY COURSES</p>
+					</a>
+				</li>
+                <li>
+                    <!--<a href="typography.html">
+                        <i class="pe-7s-news-paper"></i>
+                        <p>Typography</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="icons.html">
+                        <i class="pe-7s-science"></i>
+                        <p>Icons</p>
+                    </a>
+                </li>
+                <li>-->
+                  
+                </li>
+                <li>
+                    <a href="notifications.html">
+                        <i class="pe-7s-bell"></i>
+                        <p>Notifications</p>
+                    </a>
+                </li>
+				<li class="active-pro">
+                    <a href="upgrade.html">
+                        <i class="pe-7s-rocket"></i>
+                        <p>Upgrade to PRO</p>
+                    </a>
+                </li>
+            </ul>
+    	</div>
+    </div>
+
+                  <!-- END SIDE -->
+
+                  <!-- START NAV-->
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default navbar-fixed">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">The course</a>
+                </div>
+                <div class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-left">
+                       
+                        <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <i class="fa fa-globe"></i>
+                                    <b class="caret"></b>
+                                    <span class="notification">5</span>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Notification 1</a></li>
+                                <li><a href="#">Notification 2</a></li>
+                                <li><a href="#">Notification 3</a></li>
+                                <li><a href="#">Notification 4</a></li>
+                                <li><a href="#">Another notification</a></li>
+                              </ul>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-comments-o"></i> 0
+                            </a>
+                        </li>
+                     <!-- <li>
+                           <a href="">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </li>-->
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                       <!-- <li>
+                           <a href="">
+                               Account
+                            </a>
+                        </li>-->
+
+                         <!-- user -->
+
+             <!--<li class="dropdown user active">
+             
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                  <img src=" default-avatar.png" alt="" class="img-circle" /> User<span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="appearance.html"><i class="fa fa-mortar-board"></i> My Courses</a></li>
+                  <li><a href="user.html"><i class="fa fa-user"></i> Profile</a></li>
+                </ul>
+
+              </li> -->
+
+              <!-- // END user -->
+
+                      <!-- <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    Dropdown
+                                    <b class="caret"></b>
+                              </a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                              </ul>
+                        </li>-->
+                        <li>
+                            <a href="#">
+                               <p>log out</p>
+                            </a>
+                           
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+                   <!-- END NAV-->
+
+            <!-- CONTENT -->
+
+            <div class="parallax bg-white page-section third">
+                <div class="container parallax-layer" data-opacity="true">
+                  <div class="media v-middle media-overflow-visible">
+                  
+                  </div>
+                </div>
+              </div>
+            
+              <div class="container">
+            
+                <div class="page-section">
+                  <div class="row">
+            
+                    <div class="col-md-9">
+            
+                      <div class="page-section padding-top-none">
+                        <div class="media media-grid v-middle">
+                          <div class="media-left">
+                            <span class="icon-block half bg-blue-300 text-white"></span>
+                          </div>
+                          <div class="media-body">
+                            <h1 class="text-display-1 margin-none">Name Of The Course</h1>
+                          </div>
+                        </div>
+                        <br/>
+                        <p class="text-body-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum dicta eius enim inventore minus optio ratione veritatis. Beatae deserunt illum ipsam magni minima mollitia officiis quia tempora! Aliquid autem beatae, dignissimos exercitationem
+                          illum, incidunt itaque libero, minima molestiae necessitatibus perferendis quae quas quidem recusandae sit! Esse maxime porro provident quasi?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto assumenda aut debitis, ducimus, ea eaque earum eius enim eos explicabo facilis harum impedit natus nemo, nobis obcaecati omnis perspiciatis praesentium quaerat quas quod
+                          reprehenderit sapiente temporibus vel voluptatem voluptates voluptatibus?</p>
+                      </div>
+            
+                      <h5 class="text-subhead-2 text-light">Course</h5>
+                      <div class="panel panel-default curriculum open paper-shadow" data-z="0.5">
+                        <div class="panel-heading panel-heading-gray" data-toggle="collapse" data-target="#curriculum-1">
+                          <div class="media">
+                            <div class="media-left">
+                              <span class="icon-block img-circle bg-indigo-300 half text-white"><i class="fa fa-graduation-cap"></i></span>
+                            </div>
+                            <div class="media-body">
+                              <h4 class="text-headline">Chapter 1</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque minima nemo repudiandae rerum! Aspernatur at, autem expedita id illum laudantium molestias officiis quaerat, rem sapiente sint totam velit. Enim.</p>
+                            </div>
+                          </div>
+                          <span class="collapse-status collapse-open">Open</span>
+                          <span class="collapse-status collapse-close">Close</span>
+                        </div>
+                        <div class="list-group collapse in" id="curriculum-1">
+                          <div class="list-group-item media" data-target="website-take-course.html">
+                            <div class="media-left">
+                              <div class="text-crt">1.</div>
+                            </div>
+                            <div class="media-body">
+                              <i class="fa fa-fw fa-circle text-green-300"></i> lesson 1
+                            </div>
+                            <div class="media-right">
+                              <div class="width-100 text-right text-caption">2:03 min</div>
+                            </div>
+                          </div>
+                          <div class="list-group-item media active" data-target="website-take-course.html">
+                            <div class="media-left">
+                              <div class="text-crt">2.</div>
+                            </div>
+                            <div class="media-body">
+                              <i class="fa fa-fw fa-circle text-blue-300"></i> lesson 2
+                            </div>
+                            <div class="media-right">
+                              <div class="width-100 text-right text-caption">25:01 min</div>
+                            </div>
+                          </div>
+                          <div class="list-group-item media" data-target="website-take-course.html">
+                            <div class="media-left">
+                              <div class="text-crt">3.</div>
+                            </div>
+                            <div class="media-body">
+                              <i class="fa fa-fw fa-circle text-grey-200"></i> lesson 3
+                            </div>
+                            <div class="media-right">
+                              <div class="width-100 text-right text-caption">12:10 min</div>
+                            </div>
+                          </div>
+                          <div class="list-group-item media" data-target="website-take-course.html">
+                            <div class="media-left">
+                              <div class="text-crt">4.</div>
+                            </div>
+                            <div class="media-body">
+                              <i class="fa fa-fw fa-circle text-grey-200"></i>lesson 4
+                            </div>
+                            <div class="media-right">
+                              <div class="width-100 text-right text-caption">1:25 min</div>
+                            </div>
+                          </div>
+                          <div class="list-group-item media" data-target="website-take-course.html">
+                            <div class="media-left">
+                              <div class="text-crt">5.</div>
+                            </div>
+                            <div class="media-body">
+                              <i class="fa fa-fw fa-circle text-grey-200"></i>lesson 5
+                            </div>
+                            <div class="media-right">
+                              <div class="width-100 text-right text-caption">22:30 min</div>
+                            </div>
+                          </div>
+                          <div class="list-group-item media" data-target="website-take-quiz.html">
+                            <div class="media-left">
+                              <div class="text-crt">6.</div>
+                            </div>
+                            <div class="media-body">
+                              <i class="fa fa-fw fa-circle text-grey-200"></i> Take Quiz
+                            </div>
+                            <div class="media-right">
+                              <div class="width-100 text-right text-caption">10:00 min</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            
+                      <div class="panel panel-default curriculum paper-shadow" data-z="0.5">
+                        <div class="panel-heading panel-heading-gray" data-toggle="collapse" data-target="#curriculum-2">
+                          <div class="media">
+                            <div class="media-left">
+                              <span class="icon-block half img-circle bg-orange-300 text-white"><i class="fa fa-graduation-cap"></i></span>
+                            </div>
+                            <div class="media-body">
+                              <h4 class="text-headline">Chapter 2</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque minima nemo repudiandae rerum! Aspernatur at, autem expedita id illum laudantium molestias officiis quaerat, rem sapiente sint totam velit. Enim.</p>
+                            </div>
+                          </div>
+                          <span  class="form-control" disabled ="open" rel="tooltip" title="you have to pass chapter 1">Open</span>
+                         
+                        </div>
+                        
+                      </div>
+            
+                      <div class="panel panel-default curriculum paper-shadow" data-z="0.5">
+                        <div class="panel-heading panel-heading-gray" data-toggle="collapse" data-target="#curriculum-3">
+                          <div class="media">
+                            <div class="media-left">
+                              <span class="icon-block half img-circle bg-green-300 text-white"><i class="fa fa-graduation-cap"></i></span>
+                            </div>
+                            <div class="media-body">
+                              <h4 class="text-headline">Chapter 3</h4>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores cumque minima nemo repudiandae rerum! Aspernatur at, autem expedita id illum laudantium molestias officiis quaerat, rem sapiente sint totam velit. Enim.</p>
+                            </div>
+                          </div>
+                          <span  class="form-control" disabled ="open" rel="tooltip" title="you have to pass chapter 1,2">Open</span>
+                         
+                        </div>
+
+                   
+                      </div>
+            
+                      <br/>
+                      <br/>
+            
+                    </div>
+                    <div class="col-md-3">
+            
+                      <div class="panel panel-default" data-toggle="panel-collapse" data-open="true">
+                        <div class="panel-heading panel-collapse-trigger">
+                          <h4 class="panel-title">Resources</h4>
+                        </div>
+                        <div class="panel-body list-group">
+                          <ul class="list-group list-group-menu">
+                            <li class="list-group-item active"><a class="link-text-color" href="course.html">Course</a></li>
+                            <li class="list-group-item"><a class="link-text-color" href="take quiz.html">Quiz Results </a></li>
+                            <li class="list-group-item"><a class="link-text-color" >Announcement</a></li>
+                           
+                          </ul>
+                        </div>
+                      </div>
+            
+                      <div class="panel panel-default" data-toggle="panel-collapse" data-open="true">
+                        <div class="panel-heading panel-collapse-trigger">
+                          <h4 class="panel-title">Instructor</h4>
+                        </div>
+                        <div class="panel-body">
+                          <div class="media v-middle">
+                            <div class="media-left">
+                              <img src="assets/img/faces/face-1.jpg" alt="About Adrian" width="60" class="img-circle" />
+                            </div>
+                            <div class="media-body">
+                              <h4 class="text-title margin-none"><a href="#">Adrian Demian</a></h4>
+                              <span class="caption text-light">Biography</span>
+                            </div>
+                          </div>
+                          <br/>
+                          <div class="expandable expandable-indicator-white expandable-trigger">
+                            <div class="expandable-content">
+                              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus aut consectetur consequatur cum cupiditate debitis doloribus, error ex explicabo harum illum minima mollitia nisi nostrum officiis omnis optio qui quisquam saepe sit
+                                sunt totam vel velit voluptatibus? Adipisci ducimus expedita id nostrum quas quia!</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            
+                    </div>
+            
+                  </div>
+                </div>
+            
+              </div>
+
+              <!-- END CONTENT -->
+
+    </div>
+</div>
+
+ <!-- Inline Script for colors and config objects; used by various external scripts; -->
+ <script>
+    var colors = {
+        "danger-color": "#e74c3c",
+        "success-color": "#81b53e",
+        "warning-color": "#f0ad4e",
+        "inverse-color": "#2c3e50",
+        "info-color": "#2d7cb5",
+        "default-color": "#6e7882",
+        "default-light-color": "#cfd9db",
+        "purple-color": "#9D8AC7",
+        "mustard-color": "#d4d171",
+        "lightred-color": "#e15258",
+        "body-bg": "#f6f6f6"
+    };
+    var config = {
+        theme: "html",
+        skins: {
+            "default": {
+                "primary-color": "#42a5f5"
+            }
+        }
+    };
+</script>
+
+<script src="js/vendor/all.js"></script>
+<script src="js/app/app.js"></script>
+
+</body>
+
+  <!--   Core JS Files   -->
+  <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
+
+  <!--  Checkbox, Radio & Switch Plugins -->
+  <script src="assets/js/bootstrap-checkbox-radio-switch.js"></script>
+
+  <!--  Charts Plugin -->
+  <script src="assets/js/chartist.min.js"></script>
+
+  <!--  Notifications Plugin    -->
+  <script src="assets/js/bootstrap-notify.js"></script>
+
+  <!--  Google Maps Plugin    -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+  <!-- Light Bootstrap Table Core javascript and methods for Demo purpose -->
+  <script src="assets/js/light-bootstrap-dashboard.js"></script>
+
+  <!-- Light Bootstrap Table DEMO methods, don't include it in your project! -->
+  <script src="assets/js/demo.js"></script>
+
+  <script type="text/javascript">
+      $(document).ready(function(){
+
+          demo.initChartist();
+
+          $.notify({
+              icon: 'pe-7s-gift',
+              message: "Welcome to <b>our acadmy</b> - The perfect place for you."
+
+          },{
+              type: 'info',
+              timer: 4000
+          });
+
+      });
+  </script>
+
+</html>
